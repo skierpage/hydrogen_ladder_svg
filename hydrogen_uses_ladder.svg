@@ -25,14 +25,14 @@
    inkscape:pagecheckerboard="0"
    showgrid="false"
    inkscape:zoom="0.04488189"
-   inkscape:cx="12700"
-   inkscape:cy="7152.1053"
+   inkscape:cx="12276.667"
+   inkscape:cy="7152.1052"
    inkscape:window-width="1920"
    inkscape:window-height="1139"
    inkscape:window-x="0"
    inkscape:window-y="0"
    inkscape:window-maximized="1"
-   inkscape:current-layer="svg1503" />
+   inkscape:current-layer="layer2" />
  <defs
    class="ClipPathGroup"
    id="defs8">
@@ -942,31 +942,29 @@
   </g>
  </defs>
  <!-- hide this defs tag with the Master_Slide content in it -->
-   id="defs676">
-  <g
-   id="dummy-master-page"
-   ooo:name="dummy-master-page"
-   class="Master_Slide">
-   <g
-   id="bg-dummy-master-page"
-   class="Background"
-   visibility="hidden" />
-   <g
-   id="bo-dummy-master-page"
-   class="BackgroundObjects"
-   visibility="hidden" />
-  </g>
-  <g
-   id="id2"
-   ooo:name="Two_Boxes"
-   class="Master_Slide">
+   id=&quot;defs676&quot;&gt;
+  
+  
+ <!-- end of hiding /defs tag with the Master_Slide content in it -->
+ 
+ 
+   
+  
+<g
+   inkscape:groupmode="layer"
+   id="layer1"
+   inkscape:label="Master Slide"
+   style="display:inline"><g
+     id="id2"
+     ooo:name="Two_Boxes"
+     class="Master_Slide">
    <g
    id="bg-id2"
    class="Background">
     <path
-   fill="rgb(255,255,255)"
+   fill="#ffffff"
    stroke="none"
-   d="M 12700,14287 L 0,14287 0,0 25399,0 25399,14287 12700,14287 Z"
+   d="M 12700,14287 H 0 V 0 h 25399 v 14287 z"
    id="path342" />
    </g>
    <g
@@ -1018,15 +1016,15 @@
    id="rect353" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M -814,3134 L -262,3136"
+   d="m -814,3134 552,2"
    id="path355" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M -131,3136 L -271,3206 -271,3066 -131,3136 Z"
+   d="m -131,3136 -140,70 v -140 z"
    id="path357" />
        </g>
       </g>
@@ -1046,15 +1044,15 @@
    id="rect362" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M -814,3542 L -262,3544"
+   d="m -814,3542 552,2"
    id="path364" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M -131,3544 L -271,3614 -271,3474 -131,3544 Z"
+   d="m -131,3544 -140,70 v -140 z"
    id="path366" />
        </g>
       </g>
@@ -1074,15 +1072,15 @@
    id="rect371" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M 26214,3135 L 25662,3133"
+   d="m 26214,3135 -552,-2"
    id="path373" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M 25531,3133 L 25671,3063 25671,3203 25531,3133 Z"
+   d="m 25531,3133 140,-70 v 140 z"
    id="path375" />
        </g>
       </g>
@@ -1102,15 +1100,15 @@
    id="rect380" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M 26214,3543 L 25662,3541"
+   d="m 26214,3543 -552,-2"
    id="path382" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M 25531,3541 L 25671,3471 25671,3611 25531,3541 Z"
+   d="m 25531,3541 140,-70 v 140 z"
    id="path384" />
        </g>
       </g>
@@ -1130,15 +1128,15 @@
    id="rect389" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M -814,7551 L -262,7553"
+   d="m -814,7551 552,2"
    id="path391" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M -131,7553 L -271,7623 -271,7483 -131,7553 Z"
+   d="m -131,7553 -140,70 v -140 z"
    id="path393" />
        </g>
       </g>
@@ -1158,15 +1156,15 @@
    id="rect398" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M -814,7959 L -262,7961"
+   d="m -814,7959 552,2"
    id="path400" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M -131,7961 L -271,8031 -271,7891 -131,7961 Z"
+   d="m -131,7961 -140,70 v -140 z"
    id="path402" />
        </g>
       </g>
@@ -1186,15 +1184,15 @@
    id="rect407" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M 26214,7552 L 25662,7550"
+   d="m 26214,7552 -552,-2"
    id="path409" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M 25531,7550 L 25671,7480 25671,7620 25531,7550 Z"
+   d="m 25531,7550 140,-70 v 140 z"
    id="path411" />
        </g>
       </g>
@@ -1214,15 +1212,15 @@
    id="rect416" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M 26214,7960 L 25662,7958"
+   d="m 26214,7960 -552,-2"
    id="path418" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M 25531,7958 L 25671,7888 25671,8028 25531,7958 Z"
+   d="m 25531,7958 140,-70 v 140 z"
    id="path420" />
        </g>
       </g>
@@ -1242,15 +1240,15 @@
    id="rect425" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M -814,11943 L -262,11945"
+   d="m -814,11943 552,2"
    id="path427" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M -131,11945 L -271,12015 -271,11875 -131,11945 Z"
+   d="m -131,11945 -140,70 v -140 z"
    id="path429" />
        </g>
       </g>
@@ -1270,15 +1268,15 @@
    id="rect434" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M 26214,11944 L 25662,11942"
+   d="m 26214,11944 -552,-2"
    id="path436" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M 25531,11942 L 25671,11872 25671,12012 25531,11942 Z"
+   d="m 25531,11942 140,-70 v 140 z"
    id="path438" />
        </g>
       </g>
@@ -1302,15 +1300,15 @@
    id="rect445" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M 1065,-750 L 1067,-317"
+   d="m 1065,-750 2,433"
    id="path447" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M 1067,-186 L 997,-326 1137,-326 1067,-186 Z"
+   d="m 1067,-186 -70,-140 h 140 z"
    id="path449" />
        </g>
       </g>
@@ -1330,15 +1328,15 @@
    id="rect454" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M 24329,-750 L 24331,-317"
+   d="m 24329,-750 2,433"
    id="path456" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M 24331,-186 L 24261,-326 24401,-326 24331,-186 Z"
+   d="m 24331,-186 -70,-140 h 140 z"
    id="path458" />
        </g>
       </g>
@@ -1358,15 +1356,15 @@
    id="rect463" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M 8249,-670 L 8251,-237"
+   d="m 8249,-670 2,433"
    id="path465" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M 8251,-106 L 8181,-246 8321,-246 8251,-106 Z"
+   d="m 8251,-106 -70,-140 h 140 z"
    id="path467" />
        </g>
       </g>
@@ -1386,15 +1384,15 @@
    id="rect472" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M 9105,-670 L 9107,-237"
+   d="m 9105,-670 2,433"
    id="path474" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M 9107,-106 L 9037,-246 9177,-246 9107,-106 Z"
+   d="m 9107,-106 -70,-140 h 140 z"
    id="path476" />
        </g>
       </g>
@@ -1414,15 +1412,15 @@
    id="rect481" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M 16289,-750 L 16291,-317"
+   d="m 16289,-750 2,433"
    id="path483" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M 16291,-186 L 16221,-326 16361,-326 16291,-186 Z"
+   d="m 16291,-186 -70,-140 h 140 z"
    id="path485" />
        </g>
       </g>
@@ -1442,15 +1440,15 @@
    id="rect490" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M 17145,-750 L 17147,-317"
+   d="m 17145,-750 2,433"
    id="path492" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M 17147,-186 L 17077,-326 17217,-326 17147,-186 Z"
+   d="m 17147,-186 -70,-140 h 140 z"
    id="path494" />
        </g>
       </g>
@@ -1470,15 +1468,15 @@
    id="rect499" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M 8252,14948 L 8250,14515"
+   d="m 8252,14948 -2,-433"
    id="path501" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M 8250,14384 L 8320,14524 8180,14524 8250,14384 Z"
+   d="m 8250,14384 70,140 h -140 z"
    id="path503" />
        </g>
       </g>
@@ -1498,15 +1496,15 @@
    id="rect508" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M 9108,14948 L 9106,14515"
+   d="m 9108,14948 -2,-433"
    id="path510" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M 9106,14384 L 9176,14524 9036,14524 9106,14384 Z"
+   d="m 9106,14384 70,140 h -140 z"
    id="path512" />
        </g>
       </g>
@@ -1526,15 +1524,15 @@
    id="rect517" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M 16292,14948 L 16290,14515"
+   d="m 16292,14948 -2,-433"
    id="path519" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M 16290,14384 L 16360,14524 16220,14524 16290,14384 Z"
+   d="m 16290,14384 70,140 h -140 z"
    id="path521" />
        </g>
       </g>
@@ -1554,15 +1552,15 @@
    id="rect526" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M 17148,14948 L 17146,14515"
+   d="m 17148,14948 -2,-433"
    id="path528" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M 17146,14384 L 17216,14524 17076,14524 17146,14384 Z"
+   d="m 17146,14384 70,140 h -140 z"
    id="path530" />
        </g>
       </g>
@@ -1582,15 +1580,15 @@
    id="rect535" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M 12252,-670 L 12254,-237"
+   d="m 12252,-670 2,433"
    id="path537" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M 12254,-106 L 12184,-246 12324,-246 12254,-106 Z"
+   d="m 12254,-106 -70,-140 h 140 z"
    id="path539" />
        </g>
       </g>
@@ -1610,15 +1608,15 @@
    id="rect544" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M 13121,-670 L 13123,-237"
+   d="m 13121,-670 2,433"
    id="path546" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M 13123,-106 L 13053,-246 13193,-246 13123,-106 Z"
+   d="m 13123,-106 -70,-140 h 140 z"
    id="path548" />
        </g>
       </g>
@@ -1638,15 +1636,15 @@
    id="rect553" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M 12267,14948 L 12265,14515"
+   d="m 12267,14948 -2,-433"
    id="path555" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M 12265,14384 L 12335,14524 12195,14524 12265,14384 Z"
+   d="m 12265,14384 70,140 h -140 z"
    id="path557" />
        </g>
       </g>
@@ -1666,15 +1664,15 @@
    id="rect562" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M 13117,14948 L 13115,14515"
+   d="m 13117,14948 -2,-433"
    id="path564" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M 13115,14384 L 13185,14524 13045,14524 13115,14384 Z"
+   d="m 13115,14384 70,140 h -140 z"
    id="path566" />
        </g>
       </g>
@@ -1698,15 +1696,15 @@
    id="rect573" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M 1065,14946 L 1067,14513"
+   d="m 1065,14946 2,-433"
    id="path575" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M 1067,14382 L 1137,14522 997,14522 1067,14382 Z"
+   d="m 1067,14382 70,140 H 997 Z"
    id="path577" />
        </g>
       </g>
@@ -1726,15 +1724,15 @@
    id="rect582" />
         <path
    fill="none"
-   stroke="rgb(237,49,36)"
+   stroke="#ed3124"
    stroke-width="9"
    stroke-linejoin="round"
-   d="M 24329,14946 L 24331,14513"
+   d="m 24329,14946 2,-433"
    id="path584" />
         <path
-   fill="rgb(237,49,36)"
+   fill="#ed3124"
    stroke="none"
-   d="M 24331,14382 L 24401,14522 24261,14522 24331,14382 Z"
+   d="m 24331,14382 70,140 h -140 z"
    id="path586" />
        </g>
       </g>
@@ -1756,10 +1754,10 @@
    id="rect595" />
       <path
    fill="none"
-   stroke="rgb(118,84,163)"
+   stroke="#7654a3"
    stroke-width="18"
    stroke-linejoin="round"
-   d="M 1067,12744 L 24332,12745"
+   d="m 1067,12744 23265,1"
    id="path597" />
      </g>
     </g>
@@ -1790,7 +1788,7 @@
        y="13374"
        id="tspan606"><tspan
          class="PlaceholderText"
-         fill="rgb(128,128,128)"
+         fill="#808080"
          stroke="none"
          id="tspan604">&lt;nu</tspan></tspan></tspan><tspan
      class="TextParagraph"
@@ -1803,7 +1801,7 @@
        y="13762"
        id="tspan612"><tspan
          class="PlaceholderText"
-         fill="rgb(128,128,128)"
+         fill="#808080"
          stroke="none"
          id="tspan610">mbe</tspan></tspan></tspan><tspan
      class="TextParagraph"
@@ -1816,7 +1814,7 @@
        y="14150"
        id="tspan618"><tspan
          class="PlaceholderText"
-         fill="rgb(128,128,128)"
+         fill="#808080"
          stroke="none"
          id="tspan616">r&gt;</tspan></tspan></tspan></text>
      </g>
@@ -1847,19 +1845,19 @@
        x="2094"
        y="13374"
        id="tspan639"><tspan
-         fill="rgb(128,128,128)"
+         fill="#808080"
          stroke="none"
          id="tspan629">9</tspan><tspan
-         fill="rgb(128,128,128)"
+         fill="#808080"
          stroke="none"
          id="tspan631"> </tspan><tspan
-         fill="rgb(128,128,128)"
+         fill="#808080"
          stroke="none"
          id="tspan633">September</tspan><tspan
-         fill="rgb(128,128,128)"
+         fill="#808080"
          stroke="none"
          id="tspan635"> 202</tspan><tspan
-         fill="rgb(128,128,128)"
+         fill="#808080"
          stroke="none"
          id="tspan637">1</tspan></tspan></tspan></text>
      </g>
@@ -1890,7 +1888,7 @@
        x="21969"
        y="13410"
        id="tspan652"><tspan
-         fill="rgb(128,128,128)"
+         fill="#808080"
          stroke="none"
          id="tspan650">@mliebreich</tspan></tspan></tspan></text>
      </g>
@@ -1921,17 +1919,31 @@
        x="7589"
        y="13410"
        id="tspan665"><tspan
-         fill="rgb(128,128,128)"
+         fill="#808080"
          stroke="none"
          id="tspan663">Clean Hydrogen Use Case Ladder – Version 4.1a</tspan></tspan></tspan></text>
      </g>
     </g>
    </g>
-  </g>
- <!-- end of hiding /defs tag with the Master_Slide content in it -->
- <g
-   class="DummySlide"
-   id="g683">
+  </g></g><g
+   inkscape:groupmode="layer"
+   id="layer2"
+   inkscape:label="ladder"
+   style="display:inline"><g
+     id="dummy-master-page"
+     ooo:name="dummy-master-page"
+     class="Master_Slide">
+   <g
+   id="bg-dummy-master-page"
+   class="Background"
+   visibility="hidden" />
+   <g
+   id="bo-dummy-master-page"
+   class="BackgroundObjects"
+   visibility="hidden" />
+  </g><g
+     class="DummySlide"
+     id="g683">
   <g
    id="g681">
    <g
@@ -1944,11 +1956,10 @@
    id="g678" />
    </g>
   </g>
- </g>
- <g
-   class="com.sun.star.drawing.CustomShape"
-   id="g698"
-   style="visibility:hidden">
+ </g><g
+     class="com.sun.star.drawing.CustomShape"
+     id="g698"
+     style="visibility:hidden">
        <g
    id="id41">
         <rect
@@ -1982,9 +1993,9 @@
          id="tspan689">A</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="TitleText"
-   id="g711"
-   style="visibility:hidden">
+     class="TitleText"
+     id="g711"
+     style="visibility:hidden">
        <g
    id="id42">
         <rect
@@ -2013,9 +2024,9 @@
          id="tspan702">Clean Hydrogen Ladder</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g728"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g728"
+     style="visibility:hidden">
        <g
    id="id43">
         <rect
@@ -2056,9 +2067,9 @@
          id="tspan719">Methanol</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g745"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g745"
+     style="visibility:hidden">
        <g
    id="id44">
         <rect
@@ -2099,9 +2110,9 @@
          id="tspan736">Chemical feedstock</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g762"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g762"
+     style="visibility:hidden">
        <g
    id="id45">
         <rect
@@ -2142,9 +2153,9 @@
          id="tspan753">Shipping*</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g779"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g779"
+     style="visibility:hidden">
        <g
    id="id46">
         <rect
@@ -2185,9 +2196,9 @@
          id="tspan770">Vintage vehicles*</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g796"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g796"
+     style="visibility:hidden">
        <g
    id="id47">
         <rect
@@ -2228,9 +2239,9 @@
          id="tspan787">Long distance trucks and coaches</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g813"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g813"
+     style="visibility:hidden">
        <g
    id="id48">
         <rect
@@ -2271,9 +2282,9 @@
          id="tspan804">Commercial heating</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g830"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g830"
+     style="visibility:hidden">
        <g
    id="id49">
         <rect
@@ -2314,9 +2325,9 @@
          id="tspan821">Island grids</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g847"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g847"
+     style="visibility:hidden">
        <g
    id="id50">
         <rect
@@ -2357,9 +2368,9 @@
          id="tspan838">H2FC cars</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g864"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g864"
+     style="visibility:hidden">
        <g
    id="id51">
         <rect
@@ -2400,9 +2411,9 @@
          id="tspan855">Urban delivery</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g881"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g881"
+     style="visibility:hidden">
        <g
    id="id52">
         <rect
@@ -2443,9 +2454,9 @@
          id="tspan872">Bulk e-fuels</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g898"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g898"
+     style="visibility:hidden">
        <g
    id="id53">
         <rect
@@ -2486,9 +2497,9 @@
          id="tspan889">Power system balancing</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g915"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g915"
+     style="visibility:hidden">
        <g
    id="id54">
         <rect
@@ -2529,9 +2540,9 @@
          id="tspan906">Steel</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g932"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g932"
+     style="visibility:hidden">
        <g
    id="id55">
         <rect
@@ -2572,9 +2583,9 @@
          id="tspan923">Mid/Low-temperature industrial heat</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g949"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g949"
+     style="visibility:hidden">
        <g
    id="id56">
         <rect
@@ -2615,9 +2626,9 @@
          id="tspan940">Domestic heating</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g966"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g966"
+     style="visibility:hidden">
        <g
    id="id57">
         <rect
@@ -2658,9 +2669,9 @@
          id="tspan957">Hydrocracking</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g983"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g983"
+     style="visibility:hidden">
        <g
    id="id58">
         <rect
@@ -2701,9 +2712,9 @@
          id="tspan974">Desulphurisation</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1000"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1000"
+     style="visibility:hidden">
        <g
    id="id59">
         <rect
@@ -2744,9 +2755,9 @@
          id="tspan991">Hydrogenation</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1017"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1017"
+     style="visibility:hidden">
        <g
    id="id60">
         <rect
@@ -2787,9 +2798,9 @@
          id="tspan1008">2 and 3-wheelers</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1034"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1034"
+     style="visibility:hidden">
        <g
    id="id61">
         <rect
@@ -2830,9 +2841,9 @@
          id="tspan1025">Long-term storage</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1051"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1051"
+     style="visibility:hidden">
        <g
    id="id62">
         <rect
@@ -2873,9 +2884,9 @@
          id="tspan1042">Short-haul aviation</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1068"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1068"
+     style="visibility:hidden">
        <g
    id="id63">
         <rect
@@ -2916,9 +2927,9 @@
          id="tspan1059">Medium-haul aviation*</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1085"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1085"
+     style="visibility:hidden">
        <g
    id="id64">
         <rect
@@ -2959,9 +2970,9 @@
          id="tspan1076">Rural trains</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1102"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1102"
+     style="visibility:hidden">
        <g
    id="id65">
         <rect
@@ -3002,9 +3013,9 @@
          id="tspan1093">Light aviation</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1119"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1119"
+     style="visibility:hidden">
        <g
    id="id66">
         <rect
@@ -3045,9 +3056,9 @@
          id="tspan1110">Clean power imports</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1136"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1136"
+     style="visibility:hidden">
        <g
    id="id67">
         <rect
@@ -3088,9 +3099,9 @@
          id="tspan1127">Local ferries</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1153"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1153"
+     style="visibility:hidden">
        <g
    id="id68">
         <rect
@@ -3131,9 +3142,9 @@
          id="tspan1144">High-temperature industrial heat</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1170"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1170"
+     style="visibility:hidden">
        <g
    id="id69">
         <rect
@@ -3174,9 +3185,9 @@
          id="tspan1161">Regional trucks</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1187"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1187"
+     style="visibility:hidden">
        <g
    id="id70">
         <rect
@@ -3217,9 +3228,9 @@
          id="tspan1178">Local CO2 remediation</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1204"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1204"
+     style="visibility:hidden">
        <g
    id="id71">
         <rect
@@ -3260,9 +3271,9 @@
          id="tspan1195">Metro trains and buses</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1217"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1217"
+     style="visibility:hidden">
        <g
    id="id72">
         <rect
@@ -3291,9 +3302,9 @@
          id="tspan1208">Unavoidable</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1230"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1230"
+     style="visibility:hidden">
        <g
    id="id73">
         <rect
@@ -3322,9 +3333,9 @@
          id="tspan1221">Uncompetitive</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1247"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1247"
+     style="visibility:hidden">
        <g
    id="id74">
         <rect
@@ -3365,9 +3376,9 @@
          id="tspan1238">Long-haul aviation*</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1262"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1262"
+     style="visibility:hidden">
        <g
    id="id75">
         <rect
@@ -3401,9 +3412,9 @@
          id="tspan1253">B</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1277"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1277"
+     style="visibility:hidden">
        <g
    id="id76">
         <rect
@@ -3437,9 +3448,9 @@
          id="tspan1268">C</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1292"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1292"
+     style="visibility:hidden">
        <g
    id="id77">
         <rect
@@ -3473,9 +3484,9 @@
          id="tspan1283">D</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1307"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1307"
+     style="visibility:hidden">
        <g
    id="id78">
         <rect
@@ -3509,9 +3520,9 @@
          id="tspan1298">E</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1322"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1322"
+     style="visibility:hidden">
        <g
    id="id79">
         <rect
@@ -3545,9 +3556,9 @@
          id="tspan1313">F</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1337"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1337"
+     style="visibility:hidden">
        <g
    id="id80">
         <rect
@@ -3581,9 +3592,9 @@
          id="tspan1328">G</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1354"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1354"
+     style="visibility:hidden">
        <g
    id="id81">
         <rect
@@ -3624,9 +3635,9 @@
          id="tspan1345">UPS</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1371"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1371"
+     style="visibility:hidden">
        <g
    id="id82">
         <rect
@@ -3667,9 +3678,9 @@
          id="tspan1362">Non-Road Mobile Machinery</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="Graphic"
-   id="g1379"
-   style="visibility:hidden">
+     class="Graphic"
+     id="g1379"
+     style="visibility:hidden">
        <g
    id="g1377">
         <rect
@@ -3691,9 +3702,9 @@
    id="image1375" />
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1396"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1396"
+     style="visibility:hidden">
        <g
    id="id83">
         <rect
@@ -3734,9 +3745,9 @@
          id="tspan1387">Fertiliser</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1409"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1409"
+     style="visibility:hidden">
        <g
    id="id84">
         <rect
@@ -3766,9 +3777,9 @@
          id="tspan1400">* Most likely via ammonia or e-fuel rather than H2 gas or liquid</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1426"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1426"
+     style="visibility:hidden">
        <g
    id="id85">
         <rect
@@ -3809,9 +3820,9 @@
          id="tspan1417">Coastal and river vessels</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1443"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1443"
+     style="visibility:hidden">
        <g
    id="id86">
         <rect
@@ -3852,9 +3863,9 @@
          id="tspan1434">Remote trains</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="com.sun.star.drawing.CustomShape"
-   id="g1460"
-   style="visibility:hidden">
+     class="com.sun.star.drawing.CustomShape"
+     id="g1460"
+     style="visibility:hidden">
        <g
    id="id87">
         <rect
@@ -3895,9 +3906,9 @@
          id="tspan1451">Generators</tspan></tspan></tspan></text>
        </g>
       </g><g
-   class="Outline"
-   id="g1491"
-   style="visibility:hidden">
+     class="Outline"
+     id="g1491"
+     style="visibility:hidden">
        <g
    id="id88">
         <rect
@@ -3964,7 +3975,4 @@
    class="HyperlinkIdList"
    id="desc1488">id89 id90</desc>
        </g>
-      </g>
-   
-  
-</svg>
+      </g></g></svg>
