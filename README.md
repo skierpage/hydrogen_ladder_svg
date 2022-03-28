@@ -26,6 +26,13 @@ TODO: so make this interactive, add a legend for
 that when rolled over fills in the appropriate rects
 
 TODO: note Terms & Conditions on last slide #11.
+	>>>>
+	The Clean Hydrogen Ladder is the copyright of Michael Liebreich/Liebreich Associates Limited. We are releasing these charts (but not any accompanying article or presentation) under the terms of a Creative Commons Attribution 3.0 Unported License (CC-BY 3.0), which means that you are free to reproduce, use or modify these charts. If you make modifications, you must indicate which part or parts you have changed, not pass off the resulting ladder as the work of Michael Liebreich/Liebreich Associates Limited. Please include a credit on each page or image in the following format (including the links):
+		Source: Michael Liebreich/Liebreich Associates, Clean Hydrogen Ladder, Version 4.1, 2021.
+Concept credit: Adrian Hiel, Energy Cities. As modified by skierpage. CC-BY 3.0
+	<<<<
+
+TODO: need to add a LICENSE with CC-BY 3.0 (different because it's not my copyright?)
 TODO: Need to change T&C text in SVG to add "as modified by skierpage."
 
 TODO: need to embed Arial (? or rely on fc-match). Supposedly https://vecta.io/nano will do this, according to their own https://vecta.io/blog/how-to-use-fonts-in-svg . Or could try to do it ourselves , see https://lvngd.com/blog/how-embed-google-font-svg/
