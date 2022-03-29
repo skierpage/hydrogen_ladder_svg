@@ -224,15 +224,9 @@
     </g>
    </g>
    <g class="com.sun.star.drawing.CustomShape">
-    <g id="id30">
-     <rect class="BoundingBox" stroke="none" fill="none" x="1067" y="12986" width="855" height="1165"/>
-     <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="388px" font-weight="700"><tspan class="TextPosition" x="1067" y="13374"><tspan class="PlaceholderText" fill="rgb(128,128,128)" stroke="none">&lt;nu</tspan></tspan></tspan><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="388px" font-weight="700"><tspan class="TextPosition" x="1067" y="13762"><tspan class="PlaceholderText" fill="rgb(128,128,128)" stroke="none">mbe</tspan></tspan></tspan><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="388px" font-weight="700"><tspan class="TextPosition" x="1067" y="14150"><tspan class="PlaceholderText" fill="rgb(128,128,128)" stroke="none">r&gt;</tspan></tspan></tspan></text>
-    </g>
-   </g>
-   <g class="com.sun.star.drawing.CustomShape">
     <g id="id31">
-     <rect class="BoundingBox" stroke="none" fill="none" x="2094" y="12986" width="17449" height="470"/>
-     <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="388px" font-weight="400"><tspan class="TextPosition" x="2094" y="13374"><tspan fill="rgb(128,128,128)" stroke="none">9</tspan><tspan fill="rgb(128,128,128)" stroke="none"> </tspan><tspan fill="rgb(128,128,128)" stroke="none">September</tspan><tspan fill="rgb(128,128,128)" stroke="none"> 202</tspan><tspan fill="rgb(128,128,128)" stroke="none">1</tspan></tspan></tspan></text>
+     <rect class="BoundingBox" stroke="none" fill="none" x="1067" y="12986" width="17449" height="470"/>
+     <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="388px" font-weight="400"><tspan class="TextPosition" x="1067" y="13374"><tspan fill="rgb(128,128,128)" stroke="none">9</tspan><tspan fill="rgb(128,128,128)" stroke="none"> </tspan><tspan fill="rgb(128,128,128)" stroke="none">September</tspan><tspan fill="rgb(128,128,128)" stroke="none"> 202</tspan><tspan fill="rgb(128,128,128)" stroke="none">1</tspan></tspan></tspan></text>
     </g>
    </g>
    <g class="com.sun.star.drawing.CustomShape">
