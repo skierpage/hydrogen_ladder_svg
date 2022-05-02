@@ -1,6 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.2" viewBox="0 0 25400 14288" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve">
+<svg version="1.2" viewBox="0 0 25400 14288" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve"
+onload="on_load(evt);" >
+ <script type="text/javascript"><![CDATA[
+window.console.log("In my script block");
+
+// From https://wiki.inkscape.org/wiki/index.php/SVG_with_javascript
+function on_load(evt) {
+  window.console.log("In my on_load with ", evt);
+  O = evt.target;
+  svgDocument = O.ownerDocument;
+  // Need a way to identify all animatable items..
+  // or just stick the damn onmouseenter on each item.
+  els = svgDocument.querySelectorAll('.chemicals-processes');
+  els.forEach(el => {
+    el.onmouseenter = highlightCat('chemicals-processes');
+  });
+}
+
+
+function highlightCat(cat) {
+  els = document.querySelectorAll('.' + cat);
+  els.forEach(el => {
+    el.classList.add('highlight');
+  }); 
+}
+// TODO: classList.remove("highlight") of all existing,
+// or maybe do it on separate onExit or something
+// N.B. also simpler getElementById or getElementsByClassName
+]]>
+</script>
+ <style type="text/css">
+  #arrow_A path,
+  <!-- only works for the one item you're hovering on
+  .chemicals-processes:hover path,
+  -->
+  .rowA.highlight > path{
+    fill: rgb(31,165,80);
+  }
+  #arrow_B path,
+  .rowB.highlight path{
+    fill: rgb(31,165,80);
+  }
+  #arrow_C path,
+  .rowC.highlight path{
+    fill: rgb(188, 208, 51)
+  }
+ </style>
  <defs class="ClipPathGroup">
   <clipPath id="presentation_clip_path" clipPathUnits="userSpaceOnUse">
    <rect x="0" y="0" width="25400" height="14288"/>
@@ -258,7 +304,7 @@
       <g class="com.sun.star.drawing.CustomShape">
        <g id="arrow_A">
         <rect class="BoundingBox" stroke="none" fill="none" x="949" y="4138" width="2957" height="783"/>
-        <path fill="rgb(31,165,80)" stroke="none" d="M 949,4138 L 3514,4138 3514,4138 3905,4529 3514,4920 3514,4920 949,4920 949,4138 Z"/>
+        <path stroke="none" d="M 949,4138 L 3514,4138 3514,4138 3905,4529 3514,4920 3514,4920 949,4920 949,4138 Z"/>
         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="494px" font-weight="700"><tspan class="TextPosition" x="1199" y="4727"><tspan fill="rgb(255,255,255)" stroke="none">A</tspan></tspan></tspan></text>
        </g>
       </g>
@@ -269,7 +315,7 @@
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
-       <g id="id43">
+       <g id="methanol" class="rowA chemicals-processes">
         <rect class="BoundingBox" stroke="none" fill="none" x="8668" y="4156" width="1757" height="680"/>
         <path fill="rgb(255,255,255)" stroke="none" d="M 8695,4287 L 8695,4287 C 8695,4269 8700,4251 8709,4235 8718,4219 8731,4206 8747,4197 8763,4188 8781,4183 8799,4183 L 10292,4183 10292,4183 C 10310,4183 10328,4188 10344,4197 10360,4206 10373,4219 10382,4235 10391,4251 10396,4269 10396,4287 L 10396,4287 10397,4703 10397,4703 C 10397,4721 10392,4739 10383,4755 10374,4771 10361,4784 10345,4793 10329,4802 10311,4807 10293,4807 L 8799,4808 8799,4808 C 8781,4808 8763,4803 8747,4794 8731,4785 8718,4772 8709,4756 8700,4740 8695,4722 8695,4704 L 8695,4287 Z"/>
         <path fill="none" stroke="rgb(118,84,163)" stroke-width="53" stroke-linejoin="round" d="M 8695,4287 L 8695,4287 C 8695,4269 8700,4251 8709,4235 8718,4219 8731,4206 8747,4197 8763,4188 8781,4183 8799,4183 L 10292,4183 10292,4183 C 10310,4183 10328,4188 10344,4197 10360,4206 10373,4219 10382,4235 10391,4251 10396,4269 10396,4287 L 10396,4287 10397,4703 10397,4703 C 10397,4721 10392,4739 10383,4755 10374,4771 10361,4784 10345,4793 10329,4802 10311,4807 10293,4807 L 8799,4808 8799,4808 C 8781,4808 8763,4803 8747,4794 8731,4785 8718,4772 8709,4756 8700,4740 8695,4722 8695,4704 L 8695,4287 Z"/>
@@ -277,8 +323,9 @@
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
-       <g id="id44">
+       <g id="chemical_feedstock" class="rowA chemicals-processes">
         <rect class="BoundingBox" stroke="none" fill="none" x="11264" y="5027" width="3383" height="680"/>
+	<!-- the path below seems bogus duplication -->
         <path fill="rgb(255,255,255)" stroke="none" d="M 11291,5158 L 11291,5158 C 11291,5140 11296,5122 11305,5106 11314,5090 11327,5077 11343,5068 11359,5059 11377,5054 11395,5054 L 14514,5054 14514,5054 C 14532,5054 14550,5059 14566,5068 14582,5077 14595,5090 14604,5106 14613,5122 14618,5140 14618,5158 L 14618,5158 14619,5574 14619,5574 C 14619,5592 14614,5610 14605,5626 14596,5642 14583,5655 14567,5664 14551,5673 14533,5678 14515,5678 L 11395,5679 11395,5679 C 11377,5679 11359,5674 11343,5665 11327,5656 11314,5643 11305,5627 11296,5611 11291,5593 11291,5575 L 11291,5158 Z"/>
         <path fill="none" stroke="rgb(118,84,163)" stroke-width="53" stroke-linejoin="round" d="M 11291,5158 L 11291,5158 C 11291,5140 11296,5122 11305,5106 11314,5090 11327,5077 11343,5068 11359,5059 11377,5054 11395,5054 L 14514,5054 14514,5054 C 14532,5054 14550,5059 14566,5068 14582,5077 14595,5090 14604,5106 14613,5122 14618,5140 14618,5158 L 14618,5158 14619,5574 14619,5574 C 14619,5592 14614,5610 14605,5626 14596,5642 14583,5655 14567,5664 14551,5673 14533,5678 14515,5678 L 11395,5679 11395,5679 C 11377,5679 11359,5674 11343,5665 11327,5656 11314,5643 11305,5627 11296,5611 11291,5593 11291,5575 L 11291,5158 Z"/>
         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="11421" y="5508"><tspan fill="rgb(0,0,0)" stroke="none">Chemical feedstock</tspan></tspan></tspan></text>
@@ -381,7 +428,7 @@
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
-       <g id="id57">
+       <g id="hydrocracking" class="rowA chemicals-processes">
         <rect class="BoundingBox" stroke="none" fill="none" x="10509" y="4156" width="2570" height="680"/>
         <path fill="rgb(255,255,255)" stroke="none" d="M 10536,4287 L 10536,4287 C 10536,4269 10541,4251 10550,4235 10559,4219 10572,4206 10588,4197 10604,4188 10622,4183 10640,4183 L 12946,4183 12946,4183 C 12964,4183 12982,4188 12998,4197 13014,4206 13027,4219 13036,4235 13045,4251 13050,4269 13050,4287 L 13050,4287 13051,4703 13051,4703 C 13051,4721 13046,4739 13037,4755 13028,4771 13015,4784 12999,4793 12983,4802 12965,4807 12947,4807 L 10640,4808 10640,4808 C 10622,4808 10604,4803 10588,4794 10572,4785 10559,4772 10550,4756 10541,4740 10536,4722 10536,4704 L 10536,4287 Z"/>
         <path fill="none" stroke="rgb(118,84,163)" stroke-width="53" stroke-linejoin="round" d="M 10536,4287 L 10536,4287 C 10536,4269 10541,4251 10550,4235 10559,4219 10572,4206 10588,4197 10604,4188 10622,4183 10640,4183 L 12946,4183 12946,4183 C 12964,4183 12982,4188 12998,4197 13014,4206 13027,4219 13036,4235 13045,4251 13050,4269 13050,4287 L 13050,4287 13051,4703 13051,4703 C 13051,4721 13046,4739 13037,4755 13028,4771 13015,4784 12999,4793 12983,4802 12965,4807 12947,4807 L 10640,4808 10640,4808 C 10622,4808 10604,4803 10588,4794 10572,4785 10559,4772 10550,4756 10541,4740 10536,4722 10536,4704 L 10536,4287 Z"/>
@@ -389,7 +436,7 @@
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
-       <g id="id58">
+       <g id="desulphurisation" class="rowA chemicals-processes">
         <rect class="BoundingBox" stroke="none" fill="none" x="13170" y="4156" width="2930" height="680"/>
         <path fill="rgb(255,255,255)" stroke="none" d="M 13197,4287 L 13197,4287 C 13197,4269 13202,4251 13211,4235 13220,4219 13233,4206 13249,4197 13265,4188 13283,4183 13301,4183 L 15967,4183 15967,4183 C 15985,4183 16003,4188 16019,4197 16035,4206 16048,4219 16057,4235 16066,4251 16071,4269 16071,4287 L 16071,4287 16072,4703 16072,4703 C 16072,4721 16067,4739 16058,4755 16049,4771 16036,4784 16020,4793 16004,4802 15986,4807 15968,4807 L 13301,4808 13301,4808 C 13283,4808 13265,4803 13249,4794 13233,4785 13220,4772 13211,4756 13202,4740 13197,4722 13197,4704 L 13197,4287 Z"/>
         <path fill="none" stroke="rgb(118,84,163)" stroke-width="53" stroke-linejoin="round" d="M 13197,4287 L 13197,4287 C 13197,4269 13202,4251 13211,4235 13220,4219 13233,4206 13249,4197 13265,4188 13283,4183 13301,4183 L 15967,4183 15967,4183 C 15985,4183 16003,4188 16019,4197 16035,4206 16048,4219 16057,4235 16066,4251 16071,4269 16071,4287 L 16071,4287 16072,4703 16072,4703 C 16072,4721 16067,4739 16058,4755 16049,4771 16036,4784 16020,4793 16004,4802 15986,4807 15968,4807 L 13301,4808 13301,4808 C 13283,4808 13265,4803 13249,4794 13233,4785 13220,4772 13211,4756 13202,4740 13197,4722 13197,4704 L 13197,4287 Z"/>
@@ -397,7 +444,7 @@
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
-       <g id="id59">
+       <g id="hydrogenation" class="rowA chemicals-processes">
         <rect class="BoundingBox" stroke="none" fill="none" x="5946" y="4156" width="2598" height="680"/>
         <path fill="rgb(255,255,255)" stroke="none" d="M 5973,4287 L 5973,4287 C 5973,4269 5978,4251 5987,4235 5996,4219 6009,4206 6025,4197 6041,4188 6059,4183 6077,4183 L 8411,4183 8411,4183 C 8429,4183 8447,4188 8463,4197 8479,4206 8492,4219 8501,4235 8510,4251 8515,4269 8515,4287 L 8515,4287 8516,4703 8516,4703 C 8516,4721 8511,4739 8502,4755 8493,4771 8480,4784 8464,4793 8448,4802 8430,4807 8412,4807 L 6077,4808 6077,4808 C 6059,4808 6041,4803 6025,4794 6009,4785 5996,4772 5987,4756 5978,4740 5973,4722 5973,4704 L 5973,4287 Z"/>
         <path fill="none" stroke="rgb(118,84,163)" stroke-width="53" stroke-linejoin="round" d="M 5973,4287 L 5973,4287 C 5973,4269 5978,4251 5987,4235 5996,4219 6009,4206 6025,4197 6041,4188 6059,4183 6077,4183 L 8411,4183 8411,4183 C 8429,4183 8447,4188 8463,4197 8479,4206 8492,4219 8501,4235 8510,4251 8515,4269 8515,4287 L 8515,4287 8516,4703 8516,4703 C 8516,4721 8511,4739 8502,4755 8493,4771 8480,4784 8464,4793 8448,4802 8430,4807 8412,4807 L 6077,4808 6077,4808 C 6059,4808 6041,4803 6025,4794 6009,4785 5996,4772 5987,4756 5978,4740 5973,4722 5973,4704 L 5973,4287 Z"/>
@@ -485,7 +532,7 @@
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
-       <g id="id70">
+       <g id="local_CO2_remediation" class="rowC chemicals-processes">
         <rect class="BoundingBox" stroke="none" fill="none" x="18333" y="5902" width="3904" height="680"/>
         <path fill="rgb(255,255,255)" stroke="none" d="M 18360,6033 L 18360,6033 C 18360,6015 18365,5997 18374,5981 18383,5965 18396,5952 18412,5943 18428,5934 18446,5929 18464,5929 L 22104,5929 22104,5929 C 22122,5929 22140,5934 22156,5943 22172,5952 22185,5965 22194,5981 22203,5997 22208,6015 22208,6033 L 22208,6033 22209,6449 22209,6449 C 22209,6467 22204,6485 22195,6501 22186,6517 22173,6530 22157,6539 22141,6548 22123,6553 22105,6553 L 18464,6554 18464,6554 C 18446,6554 18428,6549 18412,6540 18396,6531 18383,6518 18374,6502 18365,6486 18360,6468 18360,6450 L 18360,6033 Z"/>
         <path fill="none" stroke="rgb(118,84,163)" stroke-width="53" stroke-linejoin="round" d="M 18360,6033 L 18360,6033 C 18360,6015 18365,5997 18374,5981 18383,5965 18396,5952 18412,5943 18428,5934 18446,5929 18464,5929 L 22104,5929 22104,5929 C 22122,5929 22140,5934 22156,5943 22172,5952 22185,5965 22194,5981 22203,5997 22208,6015 22208,6033 L 22208,6033 22209,6449 22209,6449 C 22209,6467 22204,6485 22195,6501 22186,6517 22173,6530 22157,6539 22141,6548 22123,6553 22105,6553 L 18464,6554 18464,6554 C 18446,6554 18428,6549 18412,6540 18396,6531 18383,6518 18374,6502 18365,6486 18360,6468 18360,6450 L 18360,6033 Z"/>
@@ -585,7 +632,7 @@
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
-       <g id="id83">
+       <g id="fertiliser" class="rowA chemicals-processes">
         <rect class="BoundingBox" stroke="none" fill="none" x="4149" y="4156" width="1664" height="680"/>
         <path fill="rgb(255,255,255)" stroke="none" d="M 4176,4287 L 4176,4287 C 4176,4269 4181,4251 4190,4235 4199,4219 4212,4206 4228,4197 4244,4188 4262,4183 4280,4183 L 5680,4183 5680,4183 C 5698,4183 5716,4188 5732,4197 5748,4206 5761,4219 5770,4235 5779,4251 5784,4269 5784,4287 L 5784,4287 5785,4703 5785,4703 C 5785,4721 5780,4739 5771,4755 5762,4771 5749,4784 5733,4793 5717,4802 5699,4807 5681,4807 L 4280,4808 4280,4808 C 4262,4808 4244,4803 4228,4794 4212,4785 4199,4772 4190,4756 4181,4740 4176,4722 4176,4704 L 4176,4287 Z"/>
         <path fill="none" stroke="rgb(118,84,163)" stroke-width="53" stroke-linejoin="round" d="M 4176,4287 L 4176,4287 C 4176,4269 4181,4251 4190,4235 4199,4219 4212,4206 4228,4197 4244,4188 4262,4183 4280,4183 L 5680,4183 5680,4183 C 5698,4183 5716,4188 5732,4197 5748,4206 5761,4219 5770,4235 5779,4251 5784,4269 5784,4287 L 5784,4287 5785,4703 5785,4703 C 5785,4721 5780,4739 5771,4755 5762,4771 5749,4784 5733,4793 5717,4802 5699,4807 5681,4807 L 4280,4808 4280,4808 C 4262,4808 4244,4803 4228,4794 4212,4785 4199,4772 4190,4756 4181,4740 4176,4722 4176,4704 L 4176,4287 Z"/>
