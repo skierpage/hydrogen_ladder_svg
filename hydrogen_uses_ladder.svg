@@ -168,7 +168,7 @@
   </font>
  </defs>
  <defs class="TextShapeIndex">
-  <g ooo:slide="id1" ooo:id-list="id41 id42 id43 id44 id45 id46 id47 id48 id49 id50 id51 id52 id53 id54 id55 id56 id57 id58 id59 id60 id61 id62 id63 id64 id65 id66 id67 id68 id69 id70 id71 id72 id73 id74 id75 id76 id77 id78 id79 id80 id81 id82 id83 id84 id85 id86 id87 id88"/>
+  <g ooo:slide="id1" ooo:id-list="arrow_A id42 id43 id44 id45 id46 id47 id48 id49 id50 id51 id52 id53 id54 id55 id56 id57 id58 id59 id60 id61 id62 id63 id64 id65 id66 id67 id68 id69 id70 id71 id72 id73 id74 arrow_B arrow_C arrow_D arrow_E arrow_F arrow_G id81 id82 id83 id84 id85 id86 id87 id88"/>
  </defs>
  <defs class="EmbeddedBulletChars">
   <g id="bullet-char-template-57356" transform="scale(0.00048828125,-0.00048828125)">
@@ -256,7 +256,7 @@
     <g id="id1" class="Slide" clip-path="url(#presentation_clip_path)">
      <g ooo:name="Clean_Hydrogen_Ladder" class="Page">
       <g class="com.sun.star.drawing.CustomShape">
-       <g id="id41">
+       <g id="arrow_A">
         <rect class="BoundingBox" stroke="none" fill="none" x="949" y="4138" width="2957" height="783"/>
         <path fill="rgb(31,165,80)" stroke="none" d="M 949,4138 L 3514,4138 3514,4138 3905,4529 3514,4920 3514,4920 949,4920 949,4138 Z"/>
         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="494px" font-weight="700"><tspan class="TextPosition" x="1199" y="4727"><tspan fill="rgb(255,255,255)" stroke="none">A</tspan></tspan></tspan></text>
@@ -521,42 +521,42 @@
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
-       <g id="id75">
+       <g id="arrow_B">
         <rect class="BoundingBox" stroke="none" fill="none" x="949" y="5011" width="3281" height="784"/>
         <path fill="rgb(84,177,73)" stroke="none" d="M 949,5011 L 3838,5011 3838,5011 4229,5402 3838,5793 3838,5793 949,5793 949,5011 Z"/>
         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="494px" font-weight="700"><tspan class="TextPosition" x="1199" y="5600"><tspan fill="rgb(255,255,255)" stroke="none">B</tspan></tspan></tspan></text>
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
-       <g id="id76">
+       <g id="arrow_C">
         <rect class="BoundingBox" stroke="none" fill="none" x="937" y="5885" width="3608" height="783"/>
         <path fill="rgb(188,208,51)" stroke="none" d="M 937,5885 L 4153,5885 4153,5885 4544,6276 4153,6667 4153,6667 937,6667 937,5885 Z"/>
         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="494px" font-weight="700"><tspan class="TextPosition" x="1187" y="6474"><tspan fill="rgb(255,255,255)" stroke="none">C</tspan></tspan></tspan></text>
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
-       <g id="id77">
+       <g id="arrow_D">
         <rect class="BoundingBox" stroke="none" fill="none" x="947" y="6758" width="3949" height="783"/>
         <path fill="rgb(245,233,37)" stroke="none" d="M 947,6758 L 4504,6758 4504,6758 4895,7149 4504,7540 4504,7540 947,7540 947,6758 Z"/>
         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="494px" font-weight="700"><tspan class="TextPosition" x="1197" y="7347"><tspan fill="rgb(255,255,255)" stroke="none">D</tspan></tspan></tspan></text>
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
-       <g id="id78">
+       <g id="arrow_E">
         <rect class="BoundingBox" stroke="none" fill="none" x="946" y="7632" width="4327" height="783"/>
         <path fill="rgb(249,182,31)" stroke="none" d="M 946,7632 L 4881,7632 4881,7632 5272,8023 4881,8414 4881,8414 946,8414 946,7632 Z"/>
         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="494px" font-weight="700"><tspan class="TextPosition" x="1196" y="8221"><tspan fill="rgb(255,255,255)" stroke="none">E</tspan></tspan></tspan></text>
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
-       <g id="id79">
+       <g id="arrow_F">
         <rect class="BoundingBox" stroke="none" fill="none" x="947" y="8506" width="4616" height="784"/>
         <path fill="rgb(239,113,39)" stroke="none" d="M 947,8506 L 5171,8506 5171,8506 5562,8897 5171,9288 5171,9288 947,9288 947,8506 Z"/>
         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="494px" font-weight="700"><tspan class="TextPosition" x="1197" y="9095"><tspan fill="rgb(255,255,255)" stroke="none">F</tspan></tspan></tspan></text>
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
-       <g id="id80">
+       <g id="arrow_G">
         <rect class="BoundingBox" stroke="none" fill="none" x="945" y="9379" width="4956" height="784"/>
         <path fill="rgb(230,26,38)" stroke="none" d="M 945,9379 L 5509,9379 5509,9379 5900,9770 5509,10161 5509,10161 945,10161 945,9379 Z"/>
         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="494px" font-weight="700"><tspan class="TextPosition" x="1195" y="9968"><tspan fill="rgb(255,255,255)" stroke="none">G</tspan></tspan></tspan></text>
