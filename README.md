@@ -1,5 +1,7 @@
 == TODO: Categories legend and highlight ==
-TODO: so make this interactive, add a legend for
+TODO: so make this interactive
+
+TODO: add a legend for
 * Chemicals & processes
 * Power system
 * Aviation & shipping
@@ -9,7 +11,7 @@ that when rolled over fills in the appropriate rects
 ??? Where to fit this in?
 
 So give each rounded-rectangle instance a class
-chemicals-processes (is '+' legal?)
+chemicals-processes (I don't think '+' is legal in CSS class)
 power_system
 aviation-shipping
 land_transportation
@@ -18,26 +20,50 @@ heating
 And on rollover of each one,
  * add style category-highlighted to everything with the same class, e.g. chemicals-processes
 
+I don't think I can use :hover CSS pseudoselector to change everything that shares the class,
+it only affects what you're hovering over.
+
 Then have CSS saying for style category-highlighted
 * In category_legend, style the text of the item with that class bold
 * In each row, style the fill color of every item with that class to match the row.
-  * TODO: this is probably easier if every item in the row is in a group with ID "row-A", "row-B", etc.
+  - TODO: this would be easiest if they were within a group with class .rowA_items
+  - for now I have an explicit "rowA", "rowB", etc. clss on several of the items.
+  - TODO: it's actually the path within the item with the class, i.e. .rowA > .path
+  - this is sort-of wrong since there are two paths in each rounded rect item.
+  - TODO: this is probably easier if every item in the row is within a group with ID "row-A", "row-B", etc.
+- TODO: rename "row" -> something less geometric like...??? "level" "suitability", or "rating"
+
+TODO: decide whether to leap to Inkscape version
+	* adds id for everything
+	* > in style block becomes &gt;
+	* nearly every attribute indented 2 spaces
+  - TODO: find an XML differ that can handle or reformat its attribute whitespace
+  - maybe have one commit where I edit in Inkscape and save but no other changes
+    - then ungroup and remove mask
+    - then organize each rows items into a groupchnage
+
+TODO: the original SVG has two paths for each rounded rect, one setting the fill and one setting the stroke. Why not just one path that sets both?
+TODO: check if Impress exports a rounded rect with separate fill and stroke paths.
+BUG: is this a PPTX import bug or a bug in how Impress exports a rounded rect with a fill and stroke?
+
+TODO: instead of a function adding an onmouseenter handler, actually add one to each item.
+TODO: see if Inkscape leaves this alone or even presents it as an object property.
 
 
-=== TODO: get the color fill for the rounded rects from the PPTX or by exporting SVG. ===
-? Are these the same as the A-G arrow colors?
-In PPTX A-G are
-"Shape: 'Arrow: Right 5/96/97/98/99/100/101
+==== Category/arrow colors for each row of the ladder ====
+When highlighting items in a category like "chemicals & processes", the items take the same fill color as the arrow for that row.
 
-In slide 5, "Power system" red "Power system balancing" is shape "Rectangle: Rounded Corners 144", and LO Impress properties says fill is #e61a26. This is the same as fill color of 'Arrow: Right 96'
-==== Category/arrow colors ====
+The CSS colors for each row/rating https://www.w3schools.com/colors/colors_converter.asp to convert these colors to rgb()
 A: #1fa550
-B: #54b149
+B: #54b149 rgb(84, 177, 73)
 C: #bcd033
 D: #f5e925
 E: #f9b61f
 F: #ef7127
 G: #e61a26
+
+=== TODO: set cursor on hover items (?) ===
+could add cursor="pointer" to them.
 
 
 == TODO: Competing Technologies legend and highlight ==
@@ -85,6 +111,7 @@ https://validator.w3.org/check complains
 
 *  Error Line 21, Column 133: end tag for "font-face" which is not finished 
    <font-face font-family="Arial embedded" units-per-em="2048" font-weight="normal" font-style="normal" ascent="1852" descent="423"/>
+This suggests it wants to have some child element.
 
 == DONE: Summary so far ==
 "The Clean Hydrogen Ladder (now up to v4.1)" could be a single interactive SVG.
