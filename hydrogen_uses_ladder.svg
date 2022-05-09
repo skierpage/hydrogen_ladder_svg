@@ -40,7 +40,7 @@ function highlightCat(cat) {
   }
   #arrow_B path,
   .rowB.highlight path{
-    fill: rgb(31,165,80);
+    fill: rgb(84, 177, 73)
   }
   #arrow_C path,
   .rowC.highlight path{
