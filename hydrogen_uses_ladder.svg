@@ -3140,10 +3140,12 @@ function highlightCat(cat) {
   </g>
  </g>
 <g
-   class="com.sun.star.drawing.CustomShape"
-   id="g965-3"
-   style="visibility:visible"
-   transform="translate(2217.6182,-7917.3694)">
+   id="g2988"
+   inkscape:label="category_set"><g
+     class="com.sun.star.drawing.CustomShape"
+     id="g965-3"
+     style="visibility:visible"
+     transform="translate(2217.6182,-7917.3694)">
        <g
    id="categories">
         
@@ -3164,10 +3166,10 @@ function highlightCat(cat) {
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:353px;font-family:Arial, sans-serif;-inkscape-font-specification:'Arial, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7030a0;fill-opacity:1">Categories</tspan></tspan></text>
        </g>
       </g><g
-   id="g2744"
-   style="visibility:visible"
-   transform="translate(7419.3452,-8682.733)"
-   inkscape:label="chemicals-processes">
+     id="g2744"
+     style="visibility:visible"
+     transform="translate(7419.3452,-8682.733)"
+     inkscape:label="chemicals-processes">
         
         <text
    class="SVGTextShape"
@@ -3188,10 +3190,10 @@ function highlightCat(cat) {
          stroke="none"
          id="tspan2736">Power system</tspan></tspan></tspan></text>
        </g><g
-   id="g3309"
-   style="visibility:visible"
-   transform="translate(9733.2762,-8682.733)"
-   inkscape:label="chemicals-processes">
+     id="g3309"
+     style="visibility:visible"
+     transform="translate(9733.2762,-8682.733)"
+     inkscape:label="chemicals-processes">
         
         <text
    class="SVGTextShape"
@@ -3212,10 +3214,10 @@ function highlightCat(cat) {
          stroke="none"
          id="tspan3301">Aviation and shipping</tspan></tspan></tspan></text>
        </g><g
-   id="g4771"
-   style="visibility:visible"
-   transform="translate(13328.133,-8682.733)"
-   inkscape:label="chemicals-processes">
+     id="g4771"
+     style="visibility:visible"
+     transform="translate(13328.133,-8682.733)"
+     inkscape:label="chemicals-processes">
         
         <text
    class="SVGTextShape"
@@ -3236,10 +3238,10 @@ function highlightCat(cat) {
          stroke="none"
          id="tspan4763">Land transportation</tspan></tspan></tspan></text>
        </g><g
-   id="g5513"
-   style="visibility:visible"
-   transform="translate(16468.468,-8682.733)"
-   inkscape:label="chemicals-processes">
+     id="g5513"
+     style="visibility:visible"
+     transform="translate(16468.468,-8682.733)"
+     inkscape:label="chemicals-processes">
         
         <text
    class="SVGTextShape"
@@ -3260,10 +3262,10 @@ function highlightCat(cat) {
          stroke="none"
          id="tspan5505">Heating</tspan></tspan></tspan></text>
        </g><g
-   id="id84-2"
-   style="visibility:visible"
-   transform="translate(3232.2315,-8682.733)"
-   inkscape:label="chemicals-processes">
+     id="id84-2"
+     style="visibility:visible"
+     transform="translate(3232.2315,-8682.733)"
+     inkscape:label="chemicals-processes">
         
         <text
    class="SVGTextShape"
@@ -3283,4 +3285,4 @@ function highlightCat(cat) {
          fill="#000000"
          stroke="none"
          id="tspan1135-0">Chemicals and processes</tspan></tspan></tspan></text>
-       </g></svg>
+       </g></g></svg>
