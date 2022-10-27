@@ -98,6 +98,8 @@ TODO: note Terms & Conditions on last slide #11.
 Concept credit: Adrian Hiel, Energy Cities. As modified by skierpage. CC-BY 3.0
 	<<<<
 
+TODO: I could add a (c) symbol that pops this up.
+
 TODO: need to add a LICENSE with CC-BY 3.0 to project (different because it's not my copyright?)
 TODO: should I change T&C text in SVG to add "as modified by skierpage."
 
@@ -112,6 +114,13 @@ https://validator.w3.org/check complains
 *  Error Line 21, Column 133: end tag for "font-face" which is not finished 
    <font-face font-family="Arial embedded" units-per-em="2048" font-weight="normal" font-style="normal" ascent="1852" descent="423"/>
 This suggests it wants to have some child element.
+
+== Cleanup ==
+The main content is nestead g1234 > g1232 > container-id1 > id1 (which has a clip path) > g1228. Could remove most or all of these.
+
+Remove all the ooo: attributes
+
+Remove the <defs> section that names slide elements and is out-of-date.
 
 == DONE: Summary so far ==
 "The Clean Hydrogen Ladder (now up to v4.1)" could be a single interactive SVG.
@@ -131,6 +140,24 @@ So Export as SVG. No option to choose a slide (!!?),
 
 TODO: In a browser with JS disabled (easiest to do in Konqueror), the items in the ladder layer of the edited SVG don't appear. I could go through and remove all the 'visibility: "hidden"' attributes, or set them to 'visibility: "visible"'. But maybe if I reverted to an earlier version, fixed the visibility of class="SlideGroup", then ungrouped in Inkscape, I would fix it once and for all. 
 ^^^^ did I do this?
+
+== Cleanup ==
+Removed overall group
+Removed dummy-master-page group for class Master_Slide and its Background and BackgroundObjects
+Removed bg-id2 class Background (filled with white, but it seems white anyway).
+Kept bo-id ("BackgroundObjects" group
+
+Saved this iteration of hydrogen_uses_ladder.svg
+
+Next in Inkscape only: remove g1232 group (ungroup?), remove (ungroup) container-id1, then release object id1 from its clip_path (in the file as #presenataion_clip_path).
+The clip_path became black rect3002 (not present before) which I deleted.
+
+Now I'm down to g id1 class "Slide", a group of 1. ungroup that to give g id "g1228" class "Page", ooo:name "Clean_Hydrogen_Ladder"
+Ungroup that and I have all the items on the slide.
+
+Select the top row of rects, group them, give the group the ID "g_rowA".
+
+later removed the dummy-slide and dummy-master-page groups
 
 === Fixed the LibreOffice export ===
 To get the Liebrich badge and footer text to appear I had to edit the SVG to comment out the opening and closing defs tag around the Slide Master components, and then deleted the `<script>` tag.
