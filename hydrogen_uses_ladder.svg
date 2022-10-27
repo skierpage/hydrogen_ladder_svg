@@ -3169,7 +3169,7 @@ function highlightCat(cat) {
      id="g2744"
      style="visibility:visible"
      transform="translate(7419.3452,-8682.733)"
-     inkscape:label="chemicals-processes">
+     >
         
         <text
    class="SVGTextShape"
@@ -3193,7 +3193,7 @@ function highlightCat(cat) {
      id="g3309"
      style="visibility:visible"
      transform="translate(9733.2762,-8682.733)"
-     inkscape:label="chemicals-processes">
+     >
         
         <text
    class="SVGTextShape"
@@ -3217,7 +3217,7 @@ function highlightCat(cat) {
      id="g4771"
      style="visibility:visible"
      transform="translate(13328.133,-8682.733)"
-     inkscape:label="chemicals-processes">
+     >
         
         <text
    class="SVGTextShape"
@@ -3241,7 +3241,7 @@ function highlightCat(cat) {
      id="g5513"
      style="visibility:visible"
      transform="translate(16468.468,-8682.733)"
-     inkscape:label="chemicals-processes">
+     >
         
         <text
    class="SVGTextShape"
@@ -3262,14 +3262,14 @@ function highlightCat(cat) {
          stroke="none"
          id="tspan5505">Heating</tspan></tspan></tspan></text>
        </g><g
-     id="id84-2"
+     id="g5503"
      style="visibility:visible"
      transform="translate(3232.2315,-8682.733)"
-     inkscape:label="chemicals-processes">
+     >
         
         <text
    class="SVGTextShape"
-   id="text1141-1"
+   id="text5501"
    x="3691.271"
    y="-55.093597"><tspan
      class="TextParagraph"
