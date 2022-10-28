@@ -103,12 +103,15 @@ function unHighlightCat(cat, animMgr) {
  <style
    type="text/css"
    id="style4">
+  #category_set .highlight tspan {
+    fill: rgb(0,0,240) !important
+  }
   #arrow_A path,
   <!-- only works for the one item you're hovering on
   .chemicals-processes:hover path,
   -->
   .rowA.highlight &gt; path{
-    fill: rgb(31,165,80);
+    fill: rgb(31,165,80)
   }
   #arrow_B path,
   .rowB.highlight path{
@@ -3216,7 +3219,7 @@ function unHighlightCat(cat, animMgr) {
   </g>
  </g>
 <g
-   id="g2988"
+   id="category_set"
    inkscape:label="category_set"><g
      class="com.sun.star.drawing.CustomShape"
      id="g965-3"
@@ -3243,6 +3246,7 @@ function unHighlightCat(cat, animMgr) {
        </g>
       </g><g
      id="g2744"
+     class="power_system"
      style="visibility:visible"
      transform="translate(7419.3452,-8682.733)"
      >
@@ -3267,6 +3271,7 @@ function unHighlightCat(cat, animMgr) {
          id="tspan2736">Power system</tspan></tspan></tspan></text>
        </g><g
      id="g3309"
+     class="aviation-shipping"
      style="visibility:visible"
      transform="translate(9733.2762,-8682.733)"
      >
@@ -3291,6 +3296,7 @@ function unHighlightCat(cat, animMgr) {
          id="tspan3301">Aviation and shipping</tspan></tspan></tspan></text>
        </g><g
      id="g4771"
+     class="land_transportation"
      style="visibility:visible"
      transform="translate(13328.133,-8682.733)"
      >
@@ -3315,6 +3321,7 @@ function unHighlightCat(cat, animMgr) {
          id="tspan4763">Land transportation</tspan></tspan></tspan></text>
        </g><g
      id="g5513"
+     class="heating"
      style="visibility:visible"
      transform="translate(16468.468,-8682.733)"
      >
@@ -3339,6 +3346,7 @@ function unHighlightCat(cat, animMgr) {
          id="tspan5505">Heating</tspan></tspan></tspan></text>
        </g><g
      id="g5503"
+     class="chemicals-processes"
      style="visibility:visible"
      transform="translate(3232.2315,-8682.733)"
      >
