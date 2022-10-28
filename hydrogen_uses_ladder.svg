@@ -41,29 +41,63 @@
    id="script2"><![CDATA[
 window.console.log("In my script block");
 
+animMgr = {
+  current: null,
+  cats: ['chemicals-processes', 'power_system', 'aviation-shipping', 'land_transportation', 'heating' ],
+  animsParent: null
+};
+
 // From https://wiki.inkscape.org/wiki/index.php/SVG_with_javascript
 function on_load(evt) {
   window.console.log("In my on_load with ", evt);
   O = evt.target;
   svgDocument = O.ownerDocument;
-  // Need a way to identify all animatable items..
-  // or just stick the damn onmouseenter on each item.
-  els = svgDocument.querySelectorAll('.chemicals-processes');
-  els.forEach(el => {
-    el.onmouseenter = highlightCat('chemicals-processes');
+  // Need a way to identify all animatable items.
+  // for now just stick the damn onmouseenter on each with certain classes.
+  svgDocument = O.ownerDocument;
+  animMgr.animsParent = svgDocument;
+  animMgr.cats.forEach(cat => {
+            els = animMgr.animsParent.querySelectorAll('.' + cat);
+            els.forEach(el => {
+              el.onmouseenter = highlightCat(cat, animMgr);
+              el.onmouseleave = unHighlightCat(cat, animMgr);
+	      el.onclick = function(){
+                // TODO: if we're clicking on the element we entered (if any), leave it highlighted.
+                // TODO: if second click on the element, then un-highlight
+		// for now, just force it
+                highlightCat(cat, animMgr);
+	      };
+            });
   });
 }
 
-
-function highlightCat(cat) {
-  els = document.querySelectorAll('.' + cat);
+function highlightCat(cat, animMgr) {
+  // TODO: assert cat is in animMgr.cats ??
+  if ( animMgr.current !== null ) {
+    els = animMgr.animsParent.querySelectorAll('.' + animMgr.current);
+    els.forEach(el => {
+      el.classList.remove('highlight');
+    }); 
+  }
+  els = animMgr.animsParent.querySelectorAll('.' + cat);
   els.forEach(el => {
     el.classList.add('highlight');
   }); 
+  animMgr.current = cat;
+}
+
+function unHighlightCat(cat, animMgr) {
+  // TODO: assert cat is in animMgr.cats ??
+  console.log("Does event cat " + cat + " match animMgr.current " + animMgr.current + "? " + cat === animMgr.current );
+  els = animMgr.animsParent.querySelectorAll('.' + animMgr.current);
+  els.forEach(el => {
+    el.classList.remove('highlight');
+  }); 
+  animMgr.current = null;
 }
 // TODO: classList.remove("highlight") of all existing,
 // or maybe do it on separate onExit or something
-// N.B. also simpler getElementById or getElementsByClassName
+// TODO: consider also simpler getElementById or getElementsByClassName
 ]]>
 </script>
  <style
@@ -1225,7 +1259,7 @@ function highlightCat(cat) {
    id="g480">
 	       <g
    id="chemical_feedstock"
-   class="rowA chemicals-processes">
+   class="rowB chemicals-processes">
 		<rect
    class="BoundingBox"
    stroke="none"
@@ -1441,7 +1475,8 @@ function highlightCat(cat) {
    class="com.sun.star.drawing.CustomShape"
    id="g565">
 	       <g
-   id="id49">
+   id="island_grids">
+   class="rowE power_system">
 		<rect
    class="BoundingBox"
    stroke="none"
@@ -1613,7 +1648,8 @@ function highlightCat(cat) {
    class="com.sun.star.drawing.CustomShape"
    id="g633">
 	       <g
-   id="id53">
+   id="power_system"
+   class="rowG power_system">
 		<rect
    class="BoundingBox"
    stroke="none"
@@ -1656,7 +1692,8 @@ function highlightCat(cat) {
    class="com.sun.star.drawing.CustomShape"
    id="g650">
 	       <g
-   id="id54">
+   id="steel"
+   class="rowB chemicals-processes">
 		<rect
    class="BoundingBox"
    stroke="none"
@@ -1960,7 +1997,8 @@ function highlightCat(cat) {
    class="com.sun.star.drawing.CustomShape"
    id="g769">
 	       <g
-   id="id61">
+   id="long-term_storage"
+   class="rowB power_system">
 		<rect
    class="BoundingBox"
    stroke="none"
@@ -2175,7 +2213,8 @@ function highlightCat(cat) {
    class="com.sun.star.drawing.CustomShape"
    id="g854">
 	       <g
-   id="id66">
+   id="clean_power_imports"
+   class="rowE power_system">
 		<rect
    class="BoundingBox"
    stroke="none"
@@ -2755,7 +2794,8 @@ function highlightCat(cat) {
    class="com.sun.star.drawing.CustomShape"
    id="g1089">
 	       <g
-   id="id81">
+   id="ups"
+   class="rowE power_system">
 		<rect
    class="BoundingBox"
    stroke="none"
@@ -3027,7 +3067,8 @@ function highlightCat(cat) {
    class="com.sun.star.drawing.CustomShape"
    id="g1195">
 	       <g
-   id="id87">
+   id="generators"
+   class="rowD power_system">
 		<rect
    class="BoundingBox"
    stroke="none"
