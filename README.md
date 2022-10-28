@@ -37,10 +37,12 @@ TODO: decide whether to leap to Inkscape version
 	* adds id for everything
 	* > in style block becomes &gt;
 	* nearly every attribute indented 2 spaces
+    * all colors change from rgb to hex, e.g.  stroke="rgb(118,84,163)" ->   stroke="#7654a3"
   - TODO: find an XML differ that can handle or reformat its attribute whitespace
+    git diff --ignore-space-change is pretty good
   - maybe have one commit where I edit in Inkscape and save but no other changes
     - then ungroup and remove mask
-    - then organize each rows items into a groupchnage
+    - then organize each rows items into a groupchange
 
 TODO: the original SVG has two paths for each rounded rect, one setting the fill and one setting the stroke. Why not just one path that sets both?
 TODO: check if Impress exports a rounded rect with separate fill and stroke paths.
@@ -120,7 +122,7 @@ The main content is nestead g1234 > g1232 > container-id1 > id1 (which has a cli
 
 Remove all the ooo: attributes
 
-Remove the <defs> section that names slide elements and is out-of-date.
+Remove the <defs> section that names slide elements and is out-of-date and probably useless.
 
 == DONE: Summary so far ==
 "The Clean Hydrogen Ladder (now up to v4.1)" could be a single interactive SVG.
