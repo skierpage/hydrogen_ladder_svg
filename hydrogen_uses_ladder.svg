@@ -118,6 +118,22 @@ function unHighlightCat(cat, animMgr) {
   .rowC.highlight path{
     fill: rgb(188, 208, 51)
   }
+  #arrow_D path,
+  .rowB.highlight path{
+    fill: rgb(245,233,37)
+  }
+  #arrow_E path,
+  .rowE.highlight path{
+    fill: rgb(249,182,31)
+  }
+  #arrow_F path,
+  .rowF.highlight path{
+    fill: rgb(239,113,39)
+  }
+  #arrow_G path,
+  .rowG.highlight path{
+    fill: rgb(230,26,38)
+  }
  </style>
  <defs
    class="ClipPathGroup"
@@ -2697,7 +2713,6 @@ function unHighlightCat(cat, animMgr) {
    height="783"
    id="rect1029" />
 		<path
-   fill="rgb(249,182,31)"
    stroke="none"
    d="M 946,7632 L 4881,7632 4881,7632 5272,8023 4881,8414 4881,8414 946,8414 946,7632 Z"
    id="path1031" />
@@ -2733,7 +2748,6 @@ function unHighlightCat(cat, animMgr) {
    height="784"
    id="rect1044" />
 		<path
-   fill="rgb(239,113,39)"
    stroke="none"
    d="M 947,8506 L 5171,8506 5171,8506 5562,8897 5171,9288 5171,9288 947,9288 947,8506 Z"
    id="path1046" />
@@ -2769,7 +2783,6 @@ function unHighlightCat(cat, animMgr) {
    height="784"
    id="rect1059" />
 		<path
-   fill="rgb(230,26,38)"
    stroke="none"
    d="M 945,9379 L 5509,9379 5509,9379 5900,9770 5509,10161 5509,10161 945,10161 945,9379 Z"
    id="path1061" />
