@@ -92,6 +92,7 @@ Also the trick of within "Biomass/biogas", the items 'Shipping", Long-haul aviat
      * Most likely via ammonia or e-fuel rather than H2 gas or liquid.
 
 ## TODO: Arial font
+TODO: Does the <defs> that includes font id=EmbeddedFont_1 that defines "Arial embedded" work?
 TODO: need to embed Arial (? or rely on fc-match). Supposedly https://vecta.io/nano will do this, according to their own https://vecta.io/blog/how-to-use-fonts-in-svg . Or could try to do it ourselves , see https://lvngd.com/blog/how-embed-google-font-svg/
 
 
@@ -150,6 +151,8 @@ Kept bo-id ("BackgroundObjects" group
 Remove all the ooo: attributes
 
 Remove the <defs> section that names slide elements and is out-of-date and probably useless.
+
+? Does the <defs> that includes font id=EmbeddedFont_1 that defines "Arial embedded" work?
 
 The main content is nestead g1234 > g1232 > container-id1 > id1 (which has a clip path) > g1228. Could remove most or all of these...
 To do this in Inkscape:
