@@ -171,3 +171,13 @@ In hydrogen_uses_ladder_INKSCAPE_UNGROUPED_ROW_A.svg, I selected the top row of 
 To get the Liebrich badge and footer text to appear I had to edit the SVG to comment out the opening and closing defs tag around the Slide Master components, and then deleted the `<script>` tag.
 I filed Inkscape bug https://gitlab.com/inkscape/inbox/-/issues/6566
 
+[![CC BY 3.0][cc-by-shield]][cc-by]
+
+This work is licensed under a
+[Creative Commons Attribution 3.0 Unported License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/3.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/3.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%203.0-lightgrey.svg
