@@ -99,7 +99,7 @@ function unHighlightCat(cat, animMgr) {
 // or maybe do it on separate onExit or something
 // TODO: consider also simpler getElementById or getElementsByClassName
 ]]>
-</script>
+ </script>
  <style
    type="text/css"
    id="style4">
@@ -138,55 +138,6 @@ function unHighlightCat(cat, animMgr) {
     fill: rgb(230,26,38)
   }
  </style>
- <defs
-   class="ClipPathGroup"
-   id="defs12">
-  <clipPath
-   id="presentation_clip_path"
-   clipPathUnits="userSpaceOnUse">
-   <rect
-   x="0"
-   y="0"
-   width="25400"
-   height="14288"
-   id="rect6" />
-  </clipPath>
-  <clipPath
-   id="presentation_clip_path_shrink"
-   clipPathUnits="userSpaceOnUse">
-   <rect
-   x="25"
-   y="14"
-   width="25350"
-   height="14260"
-   id="rect9" />
-  </clipPath>
- </defs>
- <defs
-   id="defs17">
-  <g
-   id="ooo:meta_slides"
-   ooo:number-of-slides="1"
-   ooo:start-slide-number="0">
-   <g
-   id="ooo:meta_dummy_slide"
-   ooo:slide="dummy-slide"
-   ooo:master="dummy-master-page"
-   ooo:background-visibility="hidden"
-   ooo:master-objects-visibility="hidden"
-   ooo:has-transition="false" />
-   <g
-   id="ooo:meta_slide_0"
-   ooo:slide="id1"
-   ooo:master="id2"
-   ooo:display-name="Clean Hydrogen Ladder"
-   ooo:date-time-visibility="hidden"
-   ooo:footer-visibility="hidden"
-   ooo:has-transition="true" />
-  </g>
- </defs>
- <defs
-   id="presentation-animations" />
  <defs
    id="defs137">
   <font
