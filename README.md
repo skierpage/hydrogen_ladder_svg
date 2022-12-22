@@ -1,10 +1,10 @@
 The infamous "Clean Hydrogen Ladder (now up to v4.1)" figure by Michael Liebreich/Liebreich Associates
 that shows up in response to any overhyped article about The Hydrogen Economy™
 comes from a slide deck that goes on to categorize uses of hydrogen from Unavoidable to Uncompetitive.
-I turned these slides into a single interactive SVG
+I turned these slides into a single interactive SVG, a resizable vector image whose text they can search and copy.
 
-Note: GitHub, and other sites, strip the `<script>` tag contents when it presents the SVG, for security reasons.
-But viewers still have a resizable vector image whose text they can search and copy.
+*Note:* GitHub, and other sites, strip the `<script>` tag contents when it presents the SVG, for security reasons.
+You can interact with the SVG [here](https://www.skierpage.com/media/hydrogen_uses_ladder.svg).
 
 ## History
 I mentioned this idea in a reply to https://www.linkedin.com/pulse/clean-hydrogen-ladder-v40-michael-liebreich/
@@ -12,34 +12,44 @@ and Michael Liebrich provided a link to his presentation.
 
 From the slide master this is "Clean Hydrogen Use Case Ladder – Version 4.1a" of 9 September 2021 by @mliebreich
 
-BUG: fonts look weird in Google Docs, and doesn't render right.
+BUG: font looks weird in Google Docs, and dosn't render right, maybe because I didn't have Arial?
 
 Download the pptx, open in LibreOffice Impress. Looks good.
 
 Copy C:\Windows\Fonts\Arial, put the main arial.ttf file in ~/.fonts
 
-Slide 3 is the key.
-So Export as SVG. No option to choose a slide (!!?),
+Slide 3 is the key, so Export as SVG. No option in LibreOffice to choose a slide (!!?),
 
 Then start editing the svg text, cleaning it up and adding interactivity.
 
 ## Interactivity
 
 (see the `<script>` block in the SVG).
-Give each rounded-rectangle instance a class, and on rollover of each one
-* add style category-highlighted to everything with the same class, e.g. chemicals-processes
 
-I don't think I can use :hover CSS pseudoselector to change everything that shares the class,
+Give each rounded-rectangle instance a class, and on rollover of each one
+* add CSS class `highlighted` to everything with the same class, e.g. chemicals-processes
+  - I don't think I can use :hover CSS pseudoselector to change everything that shares the class,
 it only affects what you're hovering over.
 
 Then have CSS saying for style category-highlighted
-* In category_legend, style the text of the item with that class bold
-* In each row, style the fill color of every item with that class to match the row arrow's color.
+* Set CSS `category_set .highlight` fill color to blue.
+* Set CSS for `.rowX.highlight path` fill color to the row's arrow color.
   - this is sort-of wrong since there are two paths in each rounded rect item.
   - TODO: this is probably easier if every item in the row is within a group with ID "row-A", "row-B", etc.
 - TODO: rename "row" -> something less geometric like...??? "level" "suitability", or "rating"
 
-TODO: decide whether to leap to Inkscape version
+
+## TODOs
+(TODO: move these to Issues :wink: )
+
+- set cursor on hover items (?)
+  - could add cursor="pointer" to them.
+
+- why doesn't mouseenter/mouseleave work? Unclear if it ever fires. Maybe it will if I remove the main content nesting in **Cleanup**.
+- instead of a function adding `onclick` and `onmouseenter` handlers, actually add one to each item in the SVG.
+  - see if Inkscape leaves this alone or even presents it as an object property.
+
+- decide whether to leap to Inkscape version
 	* adds id for everything
 	* > in style block becomes &gt;
 	* nearly every attribute indented 2 spaces
@@ -50,25 +60,8 @@ TODO: decide whether to leap to Inkscape version
     - then ungroup and remove mask
     - then organize each rows items into a groupchange
 
-TODO: the original SVG has two paths for each rounded rect, one setting the fill and one setting the stroke. Why not just one path that sets both?
-TODO: check if Impress exports a rounded rect with separate fill and stroke paths.
-BUG: is this a PPTX import bug or a bug in how Impress exports a rounded rect with a fill and stroke?
-
-
-
-## TODOs
-(TODO: move these to Issues :wink: )
-
-- set cursor on hover items (?)
-  - could add cursor="pointer" to them.
-
-- why doesn't mouseenter/mouseleave work? Unclear if it ever fires. Maybe it will if I remove the grouping above?
-- instead of a function adding `onclick` and `onmouseenter` handlers, actually add one to each item in the SVG.
-  - see if Inkscape leaves this alone or even presents it as an object property.
-
-
 ### TODO: Competing Technologies legend and highlight
-Copy from Slide #9 (hydrogen_ladder_competing_technologies.svg) the grouping:
+Copy from Slide #9 (hydrogen_ladder_competing_technologies.svg) - grouping:
 "Key:
 * No real alternative
 * Electricity/batteries
@@ -90,8 +83,8 @@ Also the trick of within "Biomass/biogas", the items 'Shipping", Long-haul aviat
      * Most likely via ammonia or e-fuel rather than H2 gas or liquid.
 
 ### TODO: Arial font
-TODO: Does the <defs> that includes font id=EmbeddedFont_1 that defines "Arial embedded" work?
-TODO: need to embed Arial (? or rely on fc-match). Supposedly https://vecta.io/nano will do this, according to their own https://vecta.io/blog/how-to-use-fonts-in-svg . Or could try to do it ourselves , see https://lvngd.com/blog/how-embed-google-font-svg/
+- Does the `<defs>` that includes font id=EmbeddedFont_1 that defines "Arial embedded" work?
+- need to embed Arial (? or rely on fc-match). Supposedly https://vecta.io/nano will do this, according to their own https://vecta.io/blog/how-to-use-fonts-in-svg . Or could try to do it ourselves , see https://lvngd.com/blog/how-embed-google-font-svg/
 
 
 ### TODO: Terms and conditions
@@ -124,11 +117,10 @@ TODO: In a browser with JS disabled (easiest to do in Konqueror), the items in t
 ### TODO: Cleanup
 Remove all the ooo: attributes
 
-Remove the <defs> section that names slide elements and is out-of-date and probably useless.
+Remove the `<defs>` section that names slide elements and is out-of-date and probably useless.
 
-? Does the <defs> that includes font id=EmbeddedFont_1 that defines "Arial embedded" work?
 
-The main content is nestead g1234 > g1232 > container-id1 > id1 (which has a clip path) > g1228. Could remove most or all of these...
+The main content is nested g1234 > g1232 > container-id1 > id1 (which has a clip path) > g1228. Could remove most or all of these...
 To do this in Inkscape:
 * remove g1232 group (ungroup?)
 * remove (ungroup) container-id1
@@ -138,10 +130,15 @@ To do this in Inkscape:
 Now I'm down to g id1 class "Slide", a group of 1. ungroup that to give g id "g1228" class "Page", ooo:name "Clean_Hydrogen_Ladder"
 Ungroup that and I have all the items on the slide.
 
-In hydrogen_uses_ladder_INKSCAPE_UNGROUPED_ROW_A.svg, I selected the top row of rects, group them, give the group the ID "g_rowA".
+In hydrogen_uses_ladder_INKSCAPE_UNGROUPED_ROW_A.svg, I selected the top row of rects, grouped them, gave the group the ID "g_rowA".
 
 
-## Cleanup Done (??)
+The original SVG has two paths for each rounded rect, one setting the fill and one setting the stroke. Why not just one path that sets both?
+- TODO: Check if Impress exports a rounded rect with separate fill and stroke paths.
+- BUG: is this a PPTX import bug or a bug in how Impress exports a rounded rect with a fill and stroke?
+
+
+## Cleanup done (??)
 Removed overall group
 Removed dummy-master-page group for class Master_Slide and its Background and BackgroundObjects
 Removed bg-id2 class Background (filled with white, but it seems white anyway).
@@ -150,7 +147,7 @@ Kept bo-id ("BackgroundObjects" group
 
 
 ### Fixed the LibreOffice export
-To get the Liebrich badge and footer text to appear I had to edit the SVG to comment out the opening and closing defs tag around the Slide Master components, and then deleted the `<script>` tag.
+To get the Liebrich badge and footer text to appear I had to edit the SVG to comment out the opening and closing `<defs>` tag around the Slide Master components, and then deleted the `<script>` tag.
 I filed Inkscape bug https://gitlab.com/inkscape/inbox/-/issues/6566
 
 [![CC BY 3.0][cc-by-shield]][cc-by]
