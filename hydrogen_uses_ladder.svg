@@ -16,7 +16,7 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:ooo="http://xml.openoffice.org/svg/export"><sodipodi:namedview
+   ><sodipodi:namedview
    id="namedview1238"
    pagecolor="#ffffff"
    bordercolor="#666666"
@@ -858,14 +858,6 @@ function unHighlightCat(cat, animMgr) {
   </font>
  </defs>
  <defs
-   class="TextShapeIndex"
-   id="defs309">
-  <g
-   ooo:slide="id1"
-   ooo:id-list="arrow_A id42 id43 id44 id45 id46 id47 id48 id49 id50 id51 id52 id53 id54 id55 id56 id57 id58 id59 id60 id61 id62 id63 id64 id65 id66 id67 id68 id69 id70 id71 id72 id73 id74 arrow_B arrow_C arrow_D arrow_E arrow_F arrow_G id81 id82 id83 id84 id85 id86 id87 id88"
-   id="g307" />
- </defs>
- <defs
    class="EmbeddedBulletChars"
    id="defs341">
   <g
@@ -1111,7 +1103,6 @@ function unHighlightCat(cat, animMgr) {
    class="Slide"
    clip-path="url(#presentation_clip_path)">
 	     <g
-   ooo:name="Clean_Hydrogen_Ladder"
    class="Page"
    id="g1228">
 	      <g
