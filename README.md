@@ -2,13 +2,10 @@ The infamous "Clean Hydrogen Ladder (now up to v4.1)" figure by Michael Liebreic
 that shows up in response to any overhyped article about The Hydrogen Economy™
 comes from a slide deck that goes on to categorize uses of hydrogen from Unavoidable to Uncompetitive.
 I turned these slides into a single interactive SVG, a resizable vector image whose text they can search and copy.
-
-image links like these aren't interactive, and clicking on them goes to "camo.githubusercontent.com"
-![Test GitHub Pages link here](https://skierpage.github.io/hydrogen_ladder_svg/hydrogen_uses_ladder.svg)
-![Test raw here](https://raw.githubusercontent.com/skierpage/hydrogen_ladder_svg/main/hydrogen_uses_ladder.svg)
-
-*Note:* GitHub, and other sites, strip the `<script>` tag contents when it presents the SVG, for security reasons.
 You can interact with the SVG [here](https://skierpage.github.io/hydrogen_ladder_svg/hydrogen_uses_ladder.svg).
+
+*Note:* GitHub, and other sites, strip the `<script>` tag contents when it presents the SVG, for security reasons and/or link to camo.githubusercontent.com. *Don't* click on the SVG below, it won't work.
+![Test GitHub Pages link here](https://skierpage.github.io/hydrogen_ladder_svg/hydrogen_uses_ladder.svg)
 
 ## History
 I mentioned this idea in a reply to https://www.linkedin.com/pulse/clean-hydrogen-ladder-v40-michael-liebreich/
