@@ -1091,20 +1091,8 @@ function unHighlightCat(cat, animMgr) {
  
  
  <g
-   class="SlideGroup"
-   id="g1234">
-	  <g
-   visibility="visible"
-   id="g1232">
-	   <g
-   id="container-id1">
-	    <g
-   id="id1"
-   class="Slide"
-   clip-path="url(#presentation_clip_path)">
-	     <g
-   class="Page"
-   id="g1228">
+   id="main_graphic"
+   class="Slide">
 	      <g
    class="com.sun.star.drawing.CustomShape"
    id="g433">
@@ -3155,14 +3143,11 @@ function unHighlightCat(cat, animMgr) {
    id="desc1223">id89 id90</desc>
 	       </g>
 	      </g>
-	     </g>
-	    </g>
-	   </g>
-  </g>
  </g>
-<g
+ <g
    id="category_set"
-   inkscape:label="category_set"><g
+   inkscape:label="category_set">
+  <g
      class="com.sun.star.drawing.CustomShape"
      id="g965-3"
      style="visibility:visible"
@@ -3267,7 +3252,6 @@ function unHighlightCat(cat, animMgr) {
      style="visibility:visible"
      transform="translate(16468.468,-8682.733)"
      >
-        
         <text
    class="SVGTextShape"
    id="text5511"
@@ -3311,4 +3295,6 @@ function unHighlightCat(cat, animMgr) {
          fill="#000000"
          stroke="none"
          id="tspan1135-0">Chemicals and processes</tspan></tspan></tspan></text>
-       </g></g></svg>
+       </g>
+ </g>
+</svg>

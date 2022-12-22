@@ -46,7 +46,7 @@ Then have CSS saying for style category-highlighted
 - set cursor on hover items (?)
   - could add cursor="pointer" to them.
 
-- why doesn't mouseenter/mouseleave work? Unclear if it ever fires. Maybe it will if I remove the main content nesting in **Cleanup**.
+- why doesn't mouseenter/mouseleave work? Unclear if it ever fires, even after removing the main_image nesting and clipping mentioned in **Cleanup of LibreOffice SVG output**.
 - instead of a function adding `onclick` and `onmouseenter` handlers, actually add one to each item in the SVG.
   - see if Inkscape leaves this alone or even presents it as an object property.
 
@@ -116,37 +116,24 @@ TODO: In a browser with JS disabled (easiest to do in Konqueror), the items in t
 ^^^^ did I do this?
 
 ### TODO: Cleanup
-Remove all the ooo: attributes
 
-Remove the `<defs>` section that names slide elements and is out-of-date and probably useless.
-
-
-The main content is nested g1234 > g1232 > container-id1 > id1 (which has a clip path) > g1228. Could remove most or all of these...
-To do this in Inkscape:
-* remove g1232 group (ungroup?)
-* remove (ungroup) container-id1
-* then release object id1 from its clip_path (in the file as #presentataion_clip_path).
-* The clip_path became black rect3002 (not present before) which I deleted.
-
-Now I'm down to g id1 class "Slide", a group of 1. ungroup that to give g id "g1228" class "Page", ooo:name "Clean_Hydrogen_Ladder"
-Ungroup that and I have all the items on the slide.
-
-In hydrogen_uses_ladder_INKSCAPE_UNGROUPED_ROW_A.svg, I selected the top row of rects, grouped them, gave the group the ID "g_rowA".
-
+I could group each row of rounded rects and give each group id="g_rowA", "g_rowB", etc.
 
 The original SVG has two paths for each rounded rect, one setting the fill and one setting the stroke. Why not just one path that sets both?
 - TODO: Check if Impress exports a rounded rect with separate fill and stroke paths.
 - BUG: is this a PPTX import bug or a bug in how Impress exports a rounded rect with a fill and stroke?
 
 
-## Cleanup done (??)
-Removed overall group
-Removed dummy-master-page group for class Master_Slide and its Background and BackgroundObjects
-Removed bg-id2 class Background (filled with white, but it seems white anyway).
-Removed the dummy-slide and dummy-master-page groups (still have ooo: groups mentioning them)
-Kept bo-id ("BackgroundObjects" group
-
-
+## Cleanup of LibreOffice SVG output
+- Removed overall group
+- Removed dummy-master-page group for class Master_Slide and its Background and BackgroundObjects
+- Removed bg-id2 class Background (filled with white, but it seems white anyway).
+- Removed the dummy-slide and dummy-master-page groups (still have ooo: groups mentioning them)
+- Kept bo-id ("BackgroundObjects" group
+- Removed LO-specific <defs> and LO ooo: namespace elements.
+- Removed SlideGroup, clipping container, and Page groups.
+- Renamed id1 to main_image.
+    
 ### Fixed the LibreOffice export
 To get the Liebrich badge and footer text to appear I had to edit the SVG to comment out the opening and closing `<defs>` tag around the Slide Master components, and then deleted the `<script>` tag.
 I filed Inkscape bug https://gitlab.com/inkscape/inbox/-/issues/6566
