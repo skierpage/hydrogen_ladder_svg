@@ -1498,7 +1498,7 @@ function unHighlightCat(cat, animMgr) {
    class="com.sun.star.drawing.CustomShape"
    id="g565">
 	       <g
-   id="island_grids">
+   id="island_grids"
    class="rowE power_system">
 		<rect
    class="BoundingBox"
